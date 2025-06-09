@@ -12,14 +12,14 @@ namespace TaskManagement.Web.Data
         }
 
         // Your custom DbSets
-        //public DbSet<Organization> Organizations { get; set; }
-        //public DbSet<Project> Projects { get; set; }
-        //public DbSet<TaskEntity> Tasks { get; set; }
-        //public DbSet<TaskStatus> TaskStatuses { get; set; }
-        //public DbSet<TaskComment> TaskComments { get; set; }
-        //public DbSet<TaskAttachment> TaskAttachments { get; set; }
-        //public DbSet<ProjectMember> ProjectMembers { get; set; }
-        //public DbSet<TimeEntry> TimeEntries { get; set; }
-        //public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Organization> Organizations { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<TaskEntity> Tasks { get; set; }
+        public DbSet<Core.Entities.TaskStatus> TaskStatuses { get; set; }
+        public DbSet<TaskComment> TaskComments { get; set; }
+        public DbSet<TaskAttachment> TaskAttachments { get; set; }
+        public DbSet<ProjectMember> ProjectMembers { get; set; }
+        public DbSet<TimeEntry> TimeEntries { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
     }
 }

@@ -12,5 +12,11 @@ namespace TaskManagement.Core.Entities
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
         public string FullName => $"{FirstName} {LastName}".Trim();
+
+        // Navigation properties
+        //public virtual Organization? Organization { get; set; }
+        //public virtual ICollection<Project> CreatedProjects { get; set; } = new List<Project>();
+        //public virtual ICollection<ProjectMember> ProjectMemberships { get; set; } = new List<ProjectMember>();
+        //public virtual ICollection<TaskEntity> AssignedTasks { get; set; } = new List<TaskEntity>();
     }
 }
